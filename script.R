@@ -8,12 +8,12 @@ data("iris")
 #Partner 2: Hayden!
 
 # Plot
-plot <- ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +
+plot <- ggplot(iris, aes(x = Sepal.Length, y = Sepal,Width, color = Species)) +
   geom_point(size = 2) +
   geom_smooth() +
   xlab("Sepal Length (mm)") +
-  ylab("Sepal Width (mm)") +
-  scale_color_manual(values = c("tomato1", "tomato4", "goldenrod1")) +
+  ylab("Sepal Width (mm)") 
+scale_color_manual(values = c("tan", "wheat", "burlywood2")) +
   theme_bw()
 
 

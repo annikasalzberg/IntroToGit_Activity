@@ -16,5 +16,6 @@ plot <- ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +
   scale_color_manual(values = c("tomato1", "tomato4", "goldenrod1")) +
   theme_bw()
 
+
   
 plot
